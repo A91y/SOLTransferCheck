@@ -73,9 +73,8 @@ async function getTransactionDetails(signature: string) {
   };
 }
 
-// Example usage
 const signature =
-  "5c83nCkng3AHsuW7WhLoRnv8CpfrBgs9ob5Mx4xDwoFwtTJScd8ZY46rhL254WECbQyeQvfDDhpUSXvjEaScGR8o"; // Replace with actual signature
+  "5c83nCkng3AHsuW7WhLoRnv8CpfrBgs9ob5Mx4xDwoFwtTJScd8ZY46rhL254WECbQyeQvfDDhpUSXvjEaScGR8o"; // Transaction signature
 
 getTransactionDetails(signature)
   .then((details) => {
